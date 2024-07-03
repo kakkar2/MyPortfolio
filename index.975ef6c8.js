@@ -27077,6 +27077,8 @@ var _home = require("./Components/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _portfolio = require("./Components/Portfolio");
 var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
+var _eduction = require("./Components/Eduction");
+var _eductionDefault = parcelHelpers.interopDefault(_eduction);
 var _stylesCss = require("./styles.css");
 /**
  * This object represents your information. The project is set so that you
@@ -27106,7 +27108,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27115,17 +27117,22 @@ const App = ()=>{
                 themeColor: siteProps.themeColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _eductionDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27134,13 +27141,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 5
     }, undefined);
 };
@@ -27154,7 +27161,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Eduction":"25Oef"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28569,11 +28576,19 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#eduction",
+                children: "Eduction"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28970,6 +28985,154 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "code.2
 },{"./helpers/bundle-url":"lgJ39"}],"lKbd1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "webProject.cc95ebf7.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"25Oef":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9ea8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9ea8.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/**
+ * About component
+ *
+ * Space for you to describe more about yourself.
+ */ var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+/**
+ * About background image
+ *
+ * Below is a sample image. Upload the image of your choice into the "images"
+ * directory and import here for use. Then, set imageAltText to string that 
+ * represents what you see in that image.
+ *
+ * Need an image? Check out https://unsplash.com to download a image you
+ * freely use on your site.
+ */ var _waveBackgroundPng = require("../images/wave_background.png");
+var _waveBackgroundPngDefault = parcelHelpers.interopDefault(_waveBackgroundPng);
+const imageAltText = "purple and blue abstract background";
+/**
+ * Sort description that expands on your title on the Home component.
+ */ const description = "Competent Web Developer with years of experience working with tech startups and freelance. Creative and people-oriented. Well-versed in numerous programming languages including HTML5, PHP, React JS, JavaScript, CSS, and MySQL.";
+/**
+ * List of some of skills or technologies you work on, are learning,
+ * passionate about, or enjoy,
+ */ const skillsList = [
+    "HTML & CSS",
+    "Javascript",
+    "React Js",
+    "User experience",
+    "Mobile user interfaces",
+    "Graphic design", 
+];
+/**
+ * Use this to give more information about what you are passionate about,
+ * how you best work, or even a quote. This will help someone learn more
+ * about you on a professional level.
+ */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const Eduction = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "eduction",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "background",
+                src: (0, _waveBackgroundPngDefault.default),
+                alt: imageAltText
+            }, void 0, false, {
+                fileName: "src/Components/Eduction.jsx",
+                lineNumber: 53,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    backgroundColor: "white",
+                    width: "50%",
+                    padding: "4rem",
+                    margin: "3rem auto",
+                    textAlign: "center"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About Myself"
+                    }, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 63,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "large",
+                        children: description
+                    }, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 65,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        style: {
+                            textAlign: "left",
+                            columns: 2,
+                            fontSize: "1.25rem",
+                            margin: "2rem 3rem",
+                            gap: "3rem"
+                        },
+                        children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: skill
+                            }, skill, false, {
+                                fileName: "src/Components/Eduction.jsx",
+                                lineNumber: 76,
+                                columnNumber: 13
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 66,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        style: {
+                            padding: "1rem 3rem 0"
+                        },
+                        children: detailOrQuote
+                    }, void 0, false, {
+                        fileName: "src/Components/Eduction.jsx",
+                        lineNumber: 80,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Eduction.jsx",
+                lineNumber: 54,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Eduction.jsx",
+        lineNumber: 52,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Eduction;
+exports.default = Eduction;
+var _c;
+$RefreshReg$(_c, "Eduction");
+
+  $parcel$ReactRefreshHelpers$9ea8.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/wave_background.png":"5UBaf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
