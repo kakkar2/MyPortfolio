@@ -28,7 +28,7 @@ const Home = ({ name, title, themeColor }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "10rem", left: "5rem", width: "45rem", color: "#ffff", cursor: "pointer" }}>
+      <div style={{ position: "absolute", top: "15rem", left: "5rem", width: "45rem", color: "#ffff", cursor: "pointer" }}>
         <h2 style={{marginBottom: "1rem"}}>👋 Hey</h2>
         <h1 style={{marginBottom: "1rem"}}>I'm <span style={{color: `${themeColor}`, fontWeight: "bold"}}>{name}</span></h1>
         <h2 style={{marginBottom: "1rem"}}>{title}</h2>
