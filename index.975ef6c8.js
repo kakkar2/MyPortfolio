@@ -29068,7 +29068,7 @@ const Eduction = ()=>{
                             textAlign: "left"
                         },
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
                                     fontWeight: "bold"
                                 },
