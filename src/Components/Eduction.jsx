@@ -62,7 +62,7 @@ const Eduction = () => {
       >
         <h2>Eduction</h2>
         <div className="large" style={{textAlign: "left"}}>
-          <h2 style={{fontWeight: "bold"}}>Lovely Professional University, Phagwara, India</h2>
+          <h3 style={{fontWeight: "bold"}}>Lovely Professional University, Phagwara, India</h3>
           <p>B.Tech in computer science & engineering</p>
           <p style={{fontWeight: "bold"}}>Grades: 7.29 out of 10</p>
         </div>
