@@ -28632,13 +28632,35 @@ const Home = ({ name , title , themeColor  })=>{
         id: "home",
         className: "min-height",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "background",
-                src: (0, _keyboardJpgDefault.default),
-                alt: ""
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("style", {
+                children: `
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+`
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
                 lineNumber: 30,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "background",
+                src: (0, _keyboardJpgDefault.default),
+                alt: "",
+                style: {
+                    height: "100%",
+                    width: "100%",
+                    objectFit: "cover",
+                    animation: "1s ease-out 0s 1 slideInLeft"
+                }
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28658,7 +28680,7 @@ const Home = ({ name , title , themeColor  })=>{
                         children: "\uD83D\uDC4B Hey"
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -28675,13 +28697,13 @@ const Home = ({ name , title , themeColor  })=>{
                                 children: name
                             }, void 0, false, {
                                 fileName: "src/Components/Home.jsx",
-                                lineNumber: 33,
+                                lineNumber: 43,
                                 columnNumber: 48
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -28691,13 +28713,13 @@ const Home = ({ name , title , themeColor  })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28715,12 +28737,12 @@ const Home = ({ name , title , themeColor  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 37,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 36,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined)
         ]
