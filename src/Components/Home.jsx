@@ -27,7 +27,17 @@ const imageAltText = "BANNERIMAGE";
 const Home = ({ name, title, themeColor }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+      <style>{`
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+`}</style>
+      <img className="background" src={image} alt="" style={{ height: "100%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
       <div style={{ position: "absolute", top: "15rem", left: "5rem", width: "45rem", color: "#ffff", cursor: "pointer" }}>
         <h2 style={{marginBottom: "1rem"}}>👋 Hey</h2>
         <h1 style={{marginBottom: "1rem"}}>I'm <span style={{color: `${themeColor}`, fontWeight: "bold"}}>{name}</span></h1>
