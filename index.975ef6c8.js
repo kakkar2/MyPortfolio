@@ -29019,14 +29019,14 @@ const imageAltText = "purple and blue abstract background";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
- */ const skillsList = [
-    "HTML & CSS",
-    "Javascript",
-    "React Js",
-    "User experience",
-    "Mobile user interfaces",
-    "Graphic design", 
-];
+ */ // const skillsList = [
+//   "HTML & CSS",
+//   "Javascript",
+//   "React Js",
+//   "User experience",
+//   "Mobile user interfaces",
+//   "Graphic design",
+// ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
@@ -29056,58 +29056,51 @@ const Eduction = ()=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "About Myself"
+                        children: "Eduction"
                     }, void 0, false, {
                         fileName: "src/Components/Eduction.jsx",
                         lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "large",
-                        children: description
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                style: {
+                                    fontWeight: "bold"
+                                },
+                                children: "Lovely Professional University, Phagwara, India"
+                            }, void 0, false, {
+                                fileName: "src/Components/Eduction.jsx",
+                                lineNumber: 65,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "B.Tech in computer science & engineering"
+                            }, void 0, false, {
+                                fileName: "src/Components/Eduction.jsx",
+                                lineNumber: 66,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    fontWeight: "bold"
+                                },
+                                children: "Grades: 7.29 out of 10"
+                            }, void 0, false, {
+                                fileName: "src/Components/Eduction.jsx",
+                                lineNumber: 67,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Eduction.jsx",
                         lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/Eduction.jsx",
-                        lineNumber: 65,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        style: {
-                            textAlign: "left",
-                            columns: 2,
-                            fontSize: "1.25rem",
-                            margin: "2rem 3rem",
-                            gap: "3rem"
-                        },
-                        children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: skill
-                            }, skill, false, {
-                                fileName: "src/Components/Eduction.jsx",
-                                lineNumber: 76,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
-                        fileName: "src/Components/Eduction.jsx",
-                        lineNumber: 66,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                        fileName: "src/Components/Eduction.jsx",
-                        lineNumber: 79,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        style: {
-                            padding: "1rem 3rem 0"
-                        },
-                        children: detailOrQuote
-                    }, void 0, false, {
-                        fileName: "src/Components/Eduction.jsx",
-                        lineNumber: 80,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined)
                 ]
