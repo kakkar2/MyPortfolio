@@ -28644,7 +28644,7 @@ const Home = ({ name , title , themeColor  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    top: "10rem",
+                    top: "15rem",
                     left: "5rem",
                     width: "45rem",
                     color: "#ffff",
