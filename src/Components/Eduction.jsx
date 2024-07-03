@@ -30,14 +30,14 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "HTML & CSS",
-  "Javascript",
-  "React Js",
-  "User experience",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+// const skillsList = [
+//   "HTML & CSS",
+//   "Javascript",
+//   "React Js",
+//   "User experience",
+//   "Mobile user interfaces",
+//   "Graphic design",
+// ];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -60,24 +60,13 @@ const Eduction = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <h2>Eduction</h2>
+        <div className="large">
+          <h2 style={{fontWeight: "bold"}}>Lovely Professional University, Phagwara, India</h2>
+          <p>B.Tech in computer science & engineering</p>
+          <p style={{fontWeight: "bold"}}>Grades: 7.29 out of 10</p>
+        </div>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
